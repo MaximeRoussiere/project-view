@@ -13,7 +13,7 @@ var app = {
 
     $(document).ready(function(){
       $(window).scroll(function(){
-        $('.banner__header').css("opacity", 1 - $(window).scrollTop() /375)
+        $('.banner__header').css("opacity", 1 - $(window).scrollTop() /475)
       })
     })
 
