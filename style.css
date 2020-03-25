@@ -1040,7 +1040,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background-image: url("/images/staircaseedit.jpg");
+    background-image: url("staircaseedit.jpg");
     background-size: cover;
     background-position: 62% 38%;
     margin: 100px 0;
