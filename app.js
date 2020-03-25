@@ -1,9 +1,16 @@
-//var Rellax = require('rellax');
+var Rellax = require('rellax');
 
 var app = {
   init: function() {
     console.log('init');
 
+    /*// PRELOADER
+
+    $(window).on('load', function() { // makes sure the whole site is loaded 
+      $('.preloader').fadeOut(500); // will first fade out the loading animation 
+      $('.loader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+      $('body').delay(100).css({'overflow-y':'visible'});
+    })*/
 
     // PARALLAX BANNER
 
@@ -13,7 +20,7 @@ var app = {
 
     $(document).ready(function(){
       $(window).scroll(function(){
-        $('.banner__header').css("opacity", 1 - $(window).scrollTop() /475)
+        $('.banner__header').css("opacity", 1 - $(window).scrollTop() /375)
       })
     })
 
@@ -57,7 +64,7 @@ var app = {
 	$(document).on('scroll', onScroll);  
 	
 	$("body").on('click', '[href*="#"]', function(e){  
-	  $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top -150}, 100);
+	  $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top -80}, 100);
 	  e.preventDefault();
 	});    
 	  

@@ -4,19 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>R'éveil à soi</title>
-  
+  <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico"/>  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="style.css" />
-
+  <!--<link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">-->
 </head>
 
+
+
 <body>
+
+  <div class="preloader">
+    <div class="loader">
+    <div class="bg"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    </div>
+  </div>
+    
   
   <header  class="header">
 <div class="responsive-bar">
       <section class="logo">
-        <p class="logo_img"><a href="#"><img src="flower.png" class="logo_img"  alt="yoga-zen"></a></p>
+        <p class="logo_img"><a href="#"><img src="/images/flower.png" class="logo_img"  alt="yoga-zen"></a></p>
       </section>
     
       <div class="menu">
@@ -27,9 +42,9 @@
       <nav  class="navigation">
   
         <section  class="logo">  
-          <p class="logo_img"><a href="#"><img src="flower.png" class="logo_img"  alt="yoga-zen"></a></p>
+          <p class="logo_img"><a href="#"><img src="/images/rosacemulticolor.png" class="logo_img"  alt="yoga-zen"></a></p>
           <h1  class="logo_content">Stéphanie Jauffrineau 
-          <br>Reflexologue</h1>
+          <br><span>Hypno-Relaxologue</span></h1>
            
         </section>
 
@@ -48,13 +63,12 @@
   </header>
 
   <section id="home"  class="banner">
-    <header class="banner__header rellax" data-rellax-speed="-6">
+    <header class="banner__header rellax" data-rellax-speed="-5">
 
         <h1 class="banner__header__title " >Stéphanie Jauffrineau</h1>
         <h2 class="banner__header__content">R'éveil à soi</h2>
         
         <div class="buttons">
-            <div  class="button_home"><a href="#relaxation" class="button_link">Relaxation</a></div>
             <div  class="button_home"><a href="#hypnose" class="button_link">Mon blog<i class="fa fa-heart" aria-hidden="true"></i></a></div>
         </div>
         </header>
@@ -62,9 +76,9 @@
         
 
 
-    <section class="banner_img">
-        <img src="tree.png" class="tree_img rellax"  data-rellax-speed="-3" alt="tree">
-    </section>
+    <!--<section class="banner_img">
+        <img src="/images/tree.png" class="tree_img rellax"  data-rellax-speed="-3" alt="tree">
+    </section>-->
   </section>
 
   <main  class="main">
@@ -72,33 +86,13 @@
     <div class="scrolltop">
           <div class="scroll icon"><i class="fa fa-4x fa-angle-up"></i></div>
         </div>
-
-      <section id="hypnose" class="sec2">
-
-        <div class="sec2_content">
-        <h3>Hypnose</h3>
-
-        <p>"Pendant que l'on chercher à comprendre, le temps passe et la vie avec lui" Henri Laborit
-          "Prend soins de ton cerveau et ton cerveau prendra soin de ton existence" Alfonso Caycedo</p>
         
-        <p>L'hypnose est une technique de relaxation.</p>
+        <section class="mainintro">
 
-        <p>L'hypnose est un état modifié de conscience (plus ou moins selon le receveur). Selon le Dr Mario Beauregard, l'état modifié de conscience désigne : « tout état mental différent de l'état d'éveil habituel ; c'est-à-dire, représentant une déviation dans l'expérience subjective ou dans le fonctionnement psychologique par rapport à certaines normes générales de la conscience à l'état de veille »</p>
-
-        <p>L'hypnose est basée sur la confiance et la bienveillance lors de l'accompagnement. Durant une séance, vous entendez tout ce qui vous entoure et vous restez maître de vous-même. Les limites de l'hypnose sont liées à la motivation de chacun.</p>
-
-        <p>Arrêt du tabac, aide à l'amaigrissement, anxiété, gestion de stress, gestion de la douleur, troubles du sommeil, concentration, confiance en soi, difficultés relationnelles (couple, séparation), deuil, phobie, préparation mentale (examens, compétitions sportifs), l'accompagnement de la femme enceinte, problème de peau (eczéma, psoriasis), énurésie...</p>
-        </div>
-
-      </section>
-
-
-      <section class="sec3">
-
-        <div class="sec3_content">
+        <div class="mainintro_content">
           <h3>la voie vers votre mieux-être</h3>
 
-          <p>Il existe en nous un Moi véritable et authentique.
+          <p>Il existe en nous un "Moi" véritable et authentique.
             Une harmonie</p>
 
           <p>Je propose des séances d'Hypnose, de Relaxation et d'Access Bars®.
@@ -119,10 +113,44 @@
 
 
         </div>
-        </section>
+        </section> 
+        
+        <div class="interlude">
+            <img src="/images/panorama.jpg" alt="sunrise">
+          </div>
+
+      <section id="hypnose" class="sec2">
+
+        <div class="sec2_content">
+        <h3>Hypnose</h3>
+
+        <p>"Pendant que l'on chercher à comprendre, le temps passe et la vie avec lui" Henri Laborit
+          "Prend soins de ton cerveau et ton cerveau prendra soin de ton existence" Alfonso Caycedo</p>
+        
+        <p>L'hypnose est une technique de relaxation.</p>
+
+        <p>L'hypnose est un état modifié de conscience (plus ou moins selon le receveur). Selon le Dr Mario Beauregard, l'état modifié de conscience désigne : « tout état mental différent de l'état d'éveil habituel ; c'est-à-dire, représentant une déviation dans l'expérience subjective ou dans le fonctionnement psychologique par rapport à certaines normes générales de la conscience à l'état de veille »</p>
+
+        <p>L'hypnose est basée sur la confiance et la bienveillance lors de l'accompagnement. Durant une séance, vous entendez tout ce qui vous entoure et vous restez maître de vous-même. Les limites de l'hypnose sont liées à la motivation de chacun.</p>
+
+        <p>Arrêt du tabac, aide à l'amaigrissement, anxiété, gestion de stress, gestion de la douleur, troubles du sommeil, concentration, confiance en soi, difficultés relationnelles (couple, séparation), deuil, phobie, préparation mentale (examens, compétitions sportifs), l'accompagnement de la femme enceinte, problème de peau (eczéma, psoriasis), énurésie...</p>
+        </div>
+
+        <div class="torrent_img">
+            <img src="/images/pissenlithypnose.jpg" alt="pissenlit">
+        </div>
+      </section>
+
+
+      
       
 
       <section id="relaxation" class="sec4">
+
+        <div class="sec4_img">
+            <img src="/images/torrentter.jpg" alt="torrent">
+          </div>
+
         <div class="sec4_content">
           <h3>Relaxation</h3>
   
@@ -140,8 +168,18 @@
   
           </div>
 
-
+          
+          
       </section>
+
+         <section class="sec3">
+        <div class="sec3_content">
+
+          <p>« Soyez le changement que vous voulez voir dans le monde »</p>
+          <p>Gandhi</p>
+        </div>
+        </section>
+      
 
       <section id="accessbar" class="sec2">
 
@@ -160,6 +198,10 @@
 
         </div>
 
+        <div class="accessbars">
+          <img src="/images/accessbars.jpg" alt="accessbars">
+        </div> 
+
       </section>
 
       <section class="sec3">
@@ -173,6 +215,10 @@
 
       <section id="deroulement" class="sec4">
 
+        <div class="sec4_img">
+          <img src="/images/pissenlitter.jpg" alt="staircase">
+        </div>
+
           <div class="sec4_content">
             <h3>Déroulement</h3>
     
@@ -183,8 +229,10 @@
             <p>En aucun cas mon accompagnement ne remplace un traitement médical.</p>
     
             </div>
-  
+        
         </section>
+
+        
 
       <section id="tarifs" class="sec2">
 
@@ -226,19 +274,18 @@
           
   
           </div>
+
+          <div class="bankflower">
+            <img src="/images/bankflower.jpg" alt="payment">
+          </div> 
+
       </section>
 
-      <section class="sec3">
-        <div class="sec3_content">
-
-          <p>« Soyez le changement que vous voulez voir dans le monde »</p>
-          <p>Gandhi</p>
-        </div>
-        </section>
+      
 
 
-      <section id="apropos" class="sec4">
-        <div class="sec4_content">
+      <section id="apropos" class="sec4bis">
+        <div class="sec4bis_content">
           <h3>À propos de moi</h3>
   
           <p>Praticien AccessBar® depuis mars 2019</p>
@@ -252,6 +299,10 @@
           <p>Hypnologue Praticien 2ème degré.</p>
   
           </div>
+
+          <div class="profil_cam">
+            <img src="/images/steph_profil.jpg" alt="profil_camera">
+          </div>
       </section>
 
 
@@ -263,7 +314,14 @@
           <h3>Contact</h3>
   
           <p class="contact_information">Pour plus d’informations sur R'Eveil à Soi, mon programme, mes activités, mes horaires etc, contactez moi !</p>
-  
+  <div class="contact_ressources">
+
+            <div class="contact_card">
+              <img src="/images/contactcard.jpg" alt="contact_card">
+            </div>
+          <p class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:stepha.retailleau@gmail.com">stepha.retailleau@gmail.com</a></p>  
+
+        </div>
           <div class="coordonates">
           <div class="adress">
             <h4 class="adress_content"><i class="fa fa-map-marker" aria-hidden="true"></i>Adresse</h4>
@@ -272,17 +330,9 @@
   
           <p>85130 LES LANDES-GENUSSON</p>
           </div>
-          <div class="contact_ressources">
-          <p class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:stepha.retailleau@gmail.com">stepha.retailleau@gmail.com</a></p>  
-
-          <p class="phone"><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:0630143328">06.30.14.33.28</a></p>
-        </div>
-
-        <div class="social_ressources">
-         <p class="social_icons"> Suivez mes actualités et astuces sur les réseaux sociaux <br><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></p>
-        </div>
+        
           <div class="emotion_content">
-            <img src="relaxation.png" alt="relaxation">
+            <img src="/images/relaxation.png" alt="relaxation">
             <p class="emotion">Après une séance, vous vous sentirez libre et ressourcé </p>
           </div>
   
@@ -318,6 +368,7 @@
 
   </main>
   <footer>
+
     <div class="menu_social">
       <a href="#" class="menu__list__item__link_fa"><i class="fa fa-facebook"></i></a>
       <a href="#" class="menu__list__item__link_ink"><i class="fa fa-linkedin"></i></a>
@@ -331,9 +382,6 @@
          Tous droits réservés 2020 • Stéphanie Jauffrineau - Animateur en Technique de Relaxation - <a class="" href="">Mentions légales</a></p>
 </div>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
-  <script src="app.js"></script>
-
+  <script src="js/app.js"></script>
 </body>
 </html>
